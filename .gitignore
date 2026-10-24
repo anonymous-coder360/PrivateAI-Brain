@@ -1,0 +1,208 @@
+# PrivateAI - Git Ignore Rules
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Models & Checkpoints (Large Files - Use Git LFS or External Storage)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.gguf*
+*.onnx
+*.engine
+*.plan
+checkpoints/
+*.ckpt
+*.pt*
+
+# Data Files (Large)
+*.csv
+*.parquet
+*.jsonl
+*.json
+*.pkl
+*.pickle
+data/*.jsonl
+data/*.json
+*.arrow
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Compiled Extensions
+*.so
+*.dll
+*.pyd
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets.yaml
+config.yaml.local
+
+# OS Generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.cproject
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Docker
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+*.bak
+*.backup
+
+# Coverage Reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Profiling
+*.prof
+*.stat
+
+# Node.js (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Compressed Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# PDFs / Documents (keep source, ignore generated)
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+
+# ==========================================
+# PRIVATEAI SPECIFIC - Uncomment as needed
+# ==========================================
+
+# Large Model Files (use Git LFS instead)
+# *.gguf
+# *.bin
+# *.pt
+# *.safetensors
+
+# Training Outputs
+# smollm-privateai*/
+# smollm-privateai-*/
+# *.lora
+
+# Local Data (keep structure, ignore content)
+# my_knowledge/*
+# rag_store/*
+# data/*.jsonl
+# data/*.json
+
+# Android Build
+# *.apk
+# *.aab
+# app/build/
+# .gradle/
+# gradle/
+# local.properties
+# *.keystore
+# *.jks
+
+# ==========================================
+# GIT LFS TRACKING (for large files)
+# ==========================================
+# Run: git lfs install
+# git lfs track "*.gguf"
+# git lfs track "*.bin"
+# git lfs track "*.pt"
+# git lfs track "*.safetensors"
+# git lfs track "*.pth"
+# git lfs track "*.onnx"
+# git lfs track "*.arrow"

@@ -1,0 +1,3 @@
+﻿PrivateAI is a privacy-first AI that runs locally on your device.
+It has three specialized brains: Normal, Complex, and Coder.
+All data stays on device. No cloud without explicit consent.
